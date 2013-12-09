@@ -1,4 +1,4 @@
-# Informante
+# Informante [![Build Status](https://travis-ci.org/igortice/informante.png?branch=master)](https://travis-ci.org/igortice/informante)
 
 Simple rails gem for configurations of global inforamations
 
