@@ -1,3 +1,5 @@
+require 'ostruct'
+
 class InformanteObject < OpenStruct
   def initialize(hash=nil)
     @table = {}
