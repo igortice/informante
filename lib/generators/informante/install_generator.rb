@@ -5,7 +5,7 @@ module Informante::Generators
     source_root File.expand_path("../../templates", __FILE__)
 
     def copy_config_file
-      file_name = Informante::NAME_TEMPLATE_CONIG
+      file_name = Informante::NAME_TEMPLATE_CONFIG
       copy_file(file_name, "config/#{file_name}")
     end
 

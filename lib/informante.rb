@@ -43,7 +43,7 @@ module Informante
   end
 
   def path_file_informante_config
-    Rails.root.join('config', Informante::NAME_TEMPLATE_CONIG)
+    Rails.root.join('config', Informante::NAME_TEMPLATE_CONFIG)
   end
 
   def file_informante
@@ -55,7 +55,7 @@ module Informante
       begin
         YAML.load(file_informante)
       rescue => e
-        raise "problem sintaxe file #{Informante::NAME_TEMPLATE_CONIG} #{e.to_s}"
+        raise "problem with sintax in file #{Informante::NAME_TEMPLATE_CONFIG} #{e.to_s}"
       end
     end
   end
