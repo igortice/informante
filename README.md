@@ -2,7 +2,7 @@
 
 Simple rails gem for configurations of global inforamations
 
-This gem is to provide a simple way of storing information in one place and get this information anywhere in a Rails application.
+This gem provides a simple way of storing information in one place and get this information anywhere in a Rails application.
 
 
 ## Installation
@@ -30,7 +30,7 @@ rails g informante:install
 
 ## Usage
 
-By default, our `informante.yml` file has the following configuration:
+By default, our `informante.<RAILS ENVIRONMENT>.yml` file has the following configuration:
 
 ```yaml
 # -- basic example for informante.yml --
